@@ -86,7 +86,7 @@ arranging frames suitably.
 6. Set the PD gains of the Cartesian controller implemented on the linearized system to achieve a settling time of 7s without overshoot.
 7. In the null space of the task minimize the distance with respect to a given configuration q0 of your choice.
 8. Simulate the robot to reach the location $p_{des} = [1, 2, 1]$ from the homing configuration $q_{home}= [0, 0, 0, 0]$.
-![giraff_robot1 (1)](https://github.com/NicolaMaestri00/Introduction-to-Robotics-UniTn/assets/104208237/7ec04aed-0086-4e60-b1cb-7da5e52c73fc)
+![robotica](https://github.com/NicolaMaestri00/Fundamentals-of-Robotics/assets/104208237/9a2242cb-c52f-4931-928e-d110162f5ee9)
 
 ## Tools
 - Robot Operative System (ROS)
