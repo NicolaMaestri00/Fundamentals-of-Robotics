@@ -1,4 +1,4 @@
-# Introduction to Robotics (UniTn)
+# Introduction to Robotics
 ## Syllabus
 Introduzione
 - informazioni generali, contatti, riferimenti.
