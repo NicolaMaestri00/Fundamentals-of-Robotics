@@ -54,14 +54,5 @@ The project is approached incrementally:
 
 ## References
 - Robotics Modelling, Planning and Control - Siciliano, B., Sciavicco, L., Villani, L., Oriolo, G.
-- Sistemi di Automazione Industriale..Architetture e Controllo, Bonivento, Gentili, Paoli, 2010.
-- Robotics 1, A. De Luca: http://www.diag.uniroma1.it/~deluca/rob1_en.php
-- Robotics 2, A. De Luca: http://www.diag.uniroma1.it/deluca/rob2_en.php
 - O. Kathib: Introduction to Robotics: http://videolectures.net/stanfordcs223aw08_introduction_robotics/
-- Introduction to Robotics: Mechanics and Control – J.Craig
-
-Linear Systems:
-- Feedback Control of Dynamic Systems, Gene F. Franklin, J. David Powell, Abbas Emami-Naeini
--Franklin, Powell, Workman - Digital Control of Dynamic Systems
-- EE263 - Introduction to Linear Dynamical Systems, S. Boyd: https://see.stanford.edu/Course/EE263
 - MIT 2.04A Systems and Controls, George Barbastathis: https://ocw.mit.edu/courses/mechanical-engineering/2-04a-systems-and-controls-spring-2013/
