@@ -1,36 +1,27 @@
 # Introduction to Robotics
 
-## Final Assignment
-Handing a microphone to random people that want to ask questions after a talk can be a duly task, 
-and we want to automatize it. The assignment for the final project is to design a giraffe robot that 
-is able to place a microphone in front of a person in a small theatre/conference room. 
-The robot is located in the middle of the room and attached to the ceiling. The room is 4 m high 
-and the robot should be able to reach 1 m high locations in a 5x12 square meters area.
-The robot should have 5 degrees of freedom: a spherical joint at the base (2 revolute joints with 
-intersecting axes), one prismatic joint that can achieve a long extension and 2 revolute joints 
-to properly orient the microphone (not necessarily with intersecting axes). 
-We want to be able to locate the microphone at any point in the 5x5 conference room, with a certain
-pitch orientation (30 deg) with respect to the horizontal (the task is 4D), to allow people to talk 
-comfortably in the microphone. 
+## Final Assignment: *Automated Microphone Delivery with a Giraffe Robot*
 
-The project can be approached through the following incremental steps:
-1. Construct the URDF model of the robot, selecting appropriate link lengths and
-arranging frames suitably.
-2. Compute the forward kinematics (position/orientation) and differential kinematics
-(Jacobian) of the end-effector.
-3. Use Pinocchio library’s RNEA native function to create a simulator of the motion.
-4. Plan a polynomial trajectory (in the task space) to move from a coming configuration $q_{home}$ to a given end-effector configuration-orientation $p_{des}+ \Theta_{des}$.
-5. Write an inverse-dynamics (computed torque) control action in the task space to linearize the system and achieve tracking of the task.
-6. Set the PD gains of the Cartesian controller implemented on the linearized system to achieve a settling time of 7s without overshoot.
-7. In the null space of the task minimize the distance with respect to a given configuration q0 of your choice.
-8. Simulate the robot to reach the location $p_{des} = [1, 2, 1]$ from the homing configuration $q_{home}= [0, 0, 0, 0]$.
+In this project, we design a giraffe robot to automate microphone delivery in a small conference room. Mounted at the center of a $4$‑meter-high ceiling, the robot covers a $5 \times 12$‑meter area and targets a $5 \times 5$‑meter region with a fixed $30^\circ$ pitch for comfortable speaking.
+
+Key design features include $5$ degrees of freedom:
+- *Spherical base joint* (2 intersecting revolute joints)
+- *Prismatic joint* for extended reach
+- 2 *revolute joints* for precise microphone orientation
+
 ![robotica](https://github.com/NicolaMaestri00/Fundamentals-of-Robotics/assets/104208237/9a2242cb-c52f-4931-928e-d110162f5ee9)
 
-## Tools
-- Robot Operative System (ROS)
-- Pinocchio Library
-- Locosim
-- Python
+The project is approached incrementally:
+1. **URDF Modeling:** Construct the URDF model by selecting appropriate link lengths and arranging frames.
+2. **Kinematics:** Compute forward kinematics (position/orientation) and the differential kinematics (Jacobian) of the end-effector.
+3. **Simulation:** Use the Pinocchio library’s RNEA function to simulate the robot's motion.
+4. **Trajectory Planning:** Design a polynomial trajectory in task space to transition from the home configuration $$q_{home}$$ to the desired end-effector state $$p_{des} + \Theta_{des}$$.
+5. **Control Strategy:** Implement an inverse-dynamics (computed torque) control to linearize the system and achieve precise tracking.
+6. **Controller Tuning:** Set the Cartesian PD gains to ensure a $7$‑second settling time without overshoot.
+7. **Null Space Optimization:** Minimize deviation in the null space relative to a chosen configuration $$q_0$$.
+8. **Simulation Execution:** Demonstrate the robot reaching $$p_{des} = [1, 2, 1]$$ from $$q_{home} = [0, 0, 0, 0]$$.
+
+**Tools**: *Robot Operative System* (ROS), *Pinocchio* Library, *Locosim*, *Python*
 
 ## Laboratories
 ### Lab 1
