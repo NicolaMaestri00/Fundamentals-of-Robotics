@@ -23,31 +23,23 @@ The project is approached incrementally:
 
 **Tools**: *Robot Operative System* (ROS), *Pinocchio* Library, *Locosim*, *Python*
 
-## Laboratories Summary
+## Laboratories
 
 ### Lab 1: Robot Visualization & Kinematics/Dynamics
-- **Overview:** Visualize a robot using URDF.
-- **Key Tasks:** 
-  - Compute and display forward/inverse kinematics of a 4-DoF manipulator.
-  - Analyze its dynamics using the Recursive Newton-Euler Algorithm (RNEA).
+- Compute and display forward/inverse kinematics of a 4-DoF manipulator.
+- Analyze its dynamics using the Recursive Newton-Euler Algorithm (RNEA).
 
 ### Labs 2-3: Joint Space Motion Control & Environmental Interaction
-- **Overview:** Develop a joint-space motion controller for a manipulator in free motion.
-- **Key Tasks:** 
-  - Compare decentralized vs. centralized (feedback linearization) control approaches.
-  - Implement compliant control for interacting with the environment.
+- Compare decentralized vs. centralized (feedback linearization) control approaches.
+- Implement compliant control for interacting with the environment.
 
 ### Labs 4-5-6: Floating Base Dynamics & Stability
-- **Overview:** Gain hands-on experience with floating base robot dynamics.
-- **Key Tasks:** 
-  - Understand invariant properties and fixed-base dynamics.
-  - Apply quasi-static control methods to ensure locomotion stability in floating base robots.
+- Understand invariant properties and fixed-base dynamics.
+- Apply quasi-static control methods to ensure locomotion stability in floating base robots.
 
 ### Lab 7: Admittance Control & Obstacle Avoidance
-- **Overview:** Design controllers for safe human-robot interaction.
-- **Key Tasks:** 
-  - Develop an admittance controller for the end-effector during contact tasks.
-  - Implement an obstacle avoidance algorithm using potential fields.
+- Develop an admittance controller for the end-effector during contact tasks.
+- Implement an obstacle avoidance algorithm using potential fields.
 
 
 ## Laboratories
