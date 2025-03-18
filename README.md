@@ -23,50 +23,16 @@ The project is approached incrementally:
 
 **Tools**: *Robot Operative System* (ROS), *Pinocchio* Library, *Locosim*, *Python*
 
-## Syllabus
+## Course Syllabus  
 
-### General Introduction
-- **Robot Classification:** Industrial evolution and various robot types.
-- **Mechanical Structure:** Joint organization and functional units.
-
-### Sensors
-- **Fundamentals:** Measurement system properties, sensor characteristics, errors and non-idealities.
-- **Proprioceptive Sensors:** Position and inertial sensors.
-- **Exteroceptive Sensors:** Force sensors, vision sensors (passive, stereo, stereovision, camera models) and active sensors (LiDAR, structured light).
-- **Signal Processing:** Analog/digital signals, sampling, quantization, reconstruction, and low-pass filtering.
-
-### Actuators
-- **Types:** Pneumatic, hydraulic, electro-hydraulic, electric motors, and series elastic actuators.
-- **Motor Technologies:** AC motors (synchronous/asynchronous) and DC motors (brushed/brushless) with their models, steady-state response, and control (voltage/current).
-- **Transmissions:** Modeling, reducers, optimal reduction ratios, and elasticity in transmissions.
-- **Non-Idealities:** Friction, gear backlash, and dead zones.
-- **Simulation:** State-space models of DC motors, discrete equivalents, dynamic integration, and response times.
-
-### Automatic Control Fundamentals
-- **Control Concepts:** Open-loop control, feedback, bang-bang control, transient and steady-state responses, and control specifications.
-- **PID Controllers:** P, PI, and PID control, current control, and anti-windup techniques.
-- **Implementation:** Challenges in digital realization and tuning of PID controllers.
-
-### Kinematics
-- **Rigid Body Motion:** Position, orientation, and various representations of orientation.
-- **Kinematics:** Definitions of forward and inverse kinematics, joint/task/actuation spaces, homogeneous transformations, and workspace analysis.
-- **Velocity Analysis:** Linear and angular velocities, and geometric/analytic Jacobians.
-- **Inverse Kinematics:** Closed-form solutions, redundancy, null space, singularities, and numerical methods (e.g., least-squares).
-
-### Dynamics
-- **Concepts:** Distinction between statics and dynamics, the virtual work principle, and kineto-static duality.
-- **Dynamic Models:** Direct and inverse dynamics, Lagrangian formulation, inertial couplings, and the Recursive Newton-Euler Algorithm.
-- **Contact Dynamics:** Models for rigid and non-rigid contacts, and dynamics of constrained/underactuated robots.
-
-### Joint Space Control
-- **Control Challenges:** Overview of joint-space control issues and stability.
-- **Strategies:** PD control, PD with gravity compensation, and PID.
-- **Approaches:** Centralized vs. decentralized control and feedback linearization using inverse dynamics.
-
-### Task-Space Control
-- **Task-Space Control:** Inverse kinematics and inverse dynamics in Cartesian space.
-- **Redundant Manipulator Control:** Orientation control via various parameterizations.
-- **Interaction Control:** Direct force control and Cartesian impedance control.
+- **Introduction to Robotics** (Robot classification, industrial evolution, mechanical structure, joint organization)  
+- **Sensors** (Measurement principles, sensor characteristics, proprioceptive sensors, exteroceptive sensors, signal processing)  
+- **Actuators** (Pneumatic, hydraulic, electric motors, series elastic actuators, motor technologies, transmissions, non-idealities, simulation)  
+- **Automatic Control Fundamentals** (Open-loop and feedback control, PID controllers, digital implementation challenges)  
+- **Kinematics** (Rigid body motion, forward and inverse kinematics, velocity analysis, inverse kinematics techniques)  
+- **Dynamics** (Statics vs. dynamics, Lagrangian formulation, dynamic models, contact dynamics)  
+- **Joint-Space Control** (Control challenges, PD and PID control, centralized vs. decentralized strategies, feedback linearization)  
+- **Task-Space Control** (Inverse kinematics/dynamics, redundant manipulator control, interaction control, force and impedance control)  
 
 ## Laboratories
 
@@ -87,10 +53,6 @@ The project is approached incrementally:
 - Implement an obstacle avoidance algorithm using potential fields.
 
 ## References
-Linear Algebra:
-- Introduction to Linear Algebra – Gilbert Strang (book) and course: https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/
-
-Robotics:
 - Robotics Modelling, Planning and Control - Siciliano, B., Sciavicco, L., Villani, L., Oriolo, G.
 - Sistemi di Automazione Industriale..Architetture e Controllo, Bonivento, Gentili, Paoli, 2010.
 - Robotics 1, A. De Luca: http://www.diag.uniroma1.it/~deluca/rob1_en.php
