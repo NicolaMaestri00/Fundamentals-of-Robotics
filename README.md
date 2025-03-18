@@ -41,35 +41,57 @@ The project is approached incrementally:
 - Develop an admittance controller for the end-effector during contact tasks.
 - Implement an obstacle avoidance algorithm using potential fields.
 
+## Syllabus Summary
 
-## Laboratories
-### Lab 1
-- Learning the basic procedure to visualize a robot model using the Unified Robot Description Format (URDF)
-- Compute and visualize the direct/inverse kinematics of a 4-DoF serial manipulator
-- Compute and analyze the forward/inverse dynamics of a 4-DoF serial manipulator using the Recursive Newton-Euler Algorithm (RNEA)
-### Lab 2-3
-- Learning the basic procedure to design a motion controller in the joint space for a manipulator in free-motion (i.e. not in contact)
-- Analyze the advantages/disadvantages of decentralized/ centralized approaches (i.e. feedback linearization)
-- Implement the interaction with the environment with a compliant contact mode
-### Lab 4-5-6
-- Acquire confidence in some invariant properties of floating base dynamics.
-- Contact consistent (fixed) base dynamics
-- Floating base robot: quasi-static control of locomotion stability
-### Lab 7
-- Learning the basic procedure to design an admittance controller for the end-effector of a manipulator in contact with the environment with the purpose to control the interaction with a human.
-- Implement an obstacle avoidance planning algorithm base on potential fields.
+### Introduzione
+- **Overview:** General information, contacts, and references.
+- **Robot Classification:** Industrial evolution and various robot types.
+- **Mechanical Structure:** Joint organization and functional units.
 
+### Sensori
+- **Fundamentals:** Measurement system properties, sensor characteristics, errors, and non-idealities.
+- **Proprioceptive Sensors:** Position and inertial sensors.
+- **Exteroceptive Sensors:** Force sensors, vision sensors (passive, stereo, stereovision, camera models) and active sensors (LiDAR, structured light).
+- **Signal Processing:** Analog/digital signals, sampling, quantization, reconstruction, and low-pass filtering.
 
+### Attuatori
+- **Types:** Pneumatic, hydraulic, electro-hydraulic, electric motors, and series elastic actuators.
+- **Motor Technologies:** AC motors (synchronous/asynchronous) and DC motors (brushed/brushless) with their models, steady-state response, and control (voltage/current).
+- **Transmissions:** Modeling, reducers, optimal reduction ratios, and elasticity in transmissions.
+- **Non-Idealities:** Friction, gear backlash, and dead zones.
+- **Simulation:** State-space models of DC motors, discrete equivalents, dynamic integration, and response times.
+
+### Elementi di Controlli Automatici
+- **Control Concepts:** Open-loop control, feedback, bang-bang control, transient and steady-state responses, and control specifications.
+- **PID Controllers:** P, PI, and PID control, current control, and anti-windup techniques.
+- **Implementation:** Challenges in digital realization and tuning of PID controllers.
+
+### Cinematica
+- **Rigid Body Motion:** Position, orientation, and various representations of orientation.
+- **Kinematics:** Definitions of forward and inverse kinematics, joint/task/actuation spaces, homogeneous transformations, and workspace analysis.
+- **Velocity Analysis:** Linear and angular velocities, and geometric/analytic Jacobians.
+- **Inverse Kinematics:** Closed-form solutions, redundancy, null space, singularities, and numerical methods (e.g., least-squares).
+
+### Dinamica
+- **Concepts:** Distinction between statics and dynamics, the virtual work principle, and kineto-static duality.
+- **Dynamic Models:** Direct and inverse dynamics, Lagrangian formulation, inertial couplings, and the Recursive Newton-Euler Algorithm.
+- **Contact Dynamics:** Models for rigid and non-rigid contacts, and dynamics of constrained/underactuated robots.
+
+### Controllo nello Spazio dei Giunti
+- **Control Challenges:** Overview of joint-space control issues and stability.
+- **Strategies:** PD control, PD with gravity compensation, and PID.
+- **Approaches:** Centralized vs. decentralized control and feedback linearization using inverse dynamics.
+
+### Controllo nello Spazio dei Task
+- **Task-Space Control:** Inverse kinematics and inverse dynamics in Cartesian space.
+- **Redundant Manipulator Control:** Orientation control via various parameterizations.
+- **Interaction Control:** Direct force control and Cartesian impedance control.
 
 
 
 
 
 ## Syllabus
-Introduzione
-- informazioni generali, contatti, riferimenti.
-- Classificazione dei robot. Evoluzione dei robot industriali. Varie tipologie di robot.
-- Struttura meccanica di un robot, classificazione dei robot in base all’organizzazione dei giunti. Panoramica sulle unità funzionali.
 
 Sensori
 - proprietà dei sistemi di misura, caratteristiche dei sensori, tipi di errori di misura. Non-idealità nei sensori.
