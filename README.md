@@ -54,5 +54,4 @@ The project is approached incrementally:
 
 ## References
 - Robotics Modelling, Planning and Control - Siciliano, B., Sciavicco, L., Villani, L., Oriolo, G.
-- O. Kathib: Introduction to Robotics: http://videolectures.net/stanfordcs223aw08_introduction_robotics/
-- MIT 2.04A Systems and Controls, George Barbastathis: https://ocw.mit.edu/courses/mechanical-engineering/2-04a-systems-and-controls-spring-2013/
+- [Introduction to Robotics](http://videolectures.net/stanfordcs223aw08_introduction_robotics/) - O. Kathib
